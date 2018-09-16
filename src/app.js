@@ -11,12 +11,12 @@ app.get('/', (req, res) => {
     res.render('index', { title: 'Index'});
 });
 
-app.get('/profile', (req, res) => {
-    res.render('profile')
-});
+// app.get('/profile', (req, res) => {
+//     res.render('profile')
+// });
 
-app.get('/transfer', (req, res) => {
-    res.render('transfer')
-});
+// app.get('/transfer', (req, res) => {
+//     res.render('transfer')
+// });
 
 app.listen(3000, () => console.log('PS Project running on port 3000!'));
